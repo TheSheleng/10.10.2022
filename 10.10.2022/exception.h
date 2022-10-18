@@ -30,5 +30,17 @@ namespace xcptn
 		InvalidInput();
 		const char* what() override;
 	};
+
+	class IndexOutOfRange : public Exception
+	{
+	public:
+		const char* what() override;
+	};
+
+	class NullReference : public Exception
+	{
+	public:
+		const char* what() override;
+	};
 }
 

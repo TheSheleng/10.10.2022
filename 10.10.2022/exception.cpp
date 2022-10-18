@@ -21,3 +21,14 @@ const char* xcptn::InvalidInput::what()
     return "Invalid input";
 }
 
+const char* xcptn::IndexOutOfRange::what()
+{
+    return "Index out of range";
+}
+
+const char* xcptn::NullReference::what()
+{
+    return "Null reference";
+}
+
+
